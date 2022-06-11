@@ -1,0 +1,118 @@
+nav{
+    top: 0%;
+    left: 0%;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+        background-color: white;
+    width: 100%;
+    position: fixed;
+    box-shadow: 2px 2px #888888;
+}
+
+nav .navbar-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+nav .navbar-logo-text1{
+    height: 50px;
+}
+
+nav .navbar-logo-text1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+nav .navbar-logo-text2{
+    height: 50px;
+}
+
+nav .navbar-logo-text2 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    color:gray;
+    font-weight:normal;
+    margin: 0;
+}
+
+nav .navbar-menu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: absolute;
+    right: 24px;
+}
+
+nav .navbar-menu-item{
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+}
+
+.container-top-banner{
+    display: flex;
+    padding-top: 50px;
+    background-color: #ababab;
+}
+
+.top-banner-image{
+    width: 60%;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+}
+
+.container-top-banner-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.top-banner-tagline{
+    height: 150px;
+    width: 75%;
+}
+
+.top-banner-tagline h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    color: #333333;
+    margin: 0;
+}
+
+.container-top-banner-right button{
+    width: 60%;
+    background-color: #333333;
+    color: white;
+    border-radius: 0;
+}
+
+.container-article{
+    display: flex;
+}
+
+.container-article-main{
+    display:flex;
+}
+
+.article-main-image{
+    width: 60%;
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 32px;
+    padding-right: 24px;
+}
+
+.article-previews-box{
+    background-color: #888888;
+    height: 33%;
+    width: 500px;
+    
+}
